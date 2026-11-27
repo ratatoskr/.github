@@ -2,7 +2,7 @@
 
 Tools for modding Windows games, made in [Zig](https://ziglang.org).
 
-- **[Wraith](https://github.com/ratatoskr/wraith)** is a mod loader. It runs inside the game with an overlay, mod manager, tweaks and a workbench for digging into how the game works. Mods are written in C#, Zig, JavaScript or Lua.
+- **[Wraith](https://github.com/ratatoskr/wraith)** is a mod loader. It runs inside the game with an overlay, mod manager, tweaks and a workbench for digging into how the game works. Mods are written in Zig, C, C++, C#, Rust, JavaScript and Lua .
 - **[Tuft](https://github.com/ratatoskr/tuft)** is the toolkit under Wraith: hooks, memory scans, assembly, DLL injection, and Dear ImGui drawn in the game for D3D, OpenGL and Vulkan.
 - **[Salamander](https://github.com/ratatoskr/salamander)** gives Zig, C, C++, C#, Rust, JavaScript and Lua typed interfaces to each other. Write an API once in a `.sal` schema, and plugins, scripts and native code all call each other through it.
 
